@@ -37,7 +37,7 @@ def addLines(screen, lines, curRow, rangey, colors):
 		if i == curRow:
 			color = colors[1]
 
-		screen.addstr(i - rangey.start, 1, linePrefix + lines[i], color)
+		screen.addstr(i - rangey[0], 1, linePrefix + lines[i], color)
 
 
 	
@@ -143,4 +143,3 @@ if __name__ == '__main__':
 	except Exception as e:
 		curses.endwin()
 		print(e)
-		
