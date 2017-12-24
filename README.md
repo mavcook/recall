@@ -1,6 +1,9 @@
 # Recall
 Command line tool for helping you remember the things you always forget.
+
 [On pypi](https://pypi.python.org/pypi/recall-cmds)
+
+![example](https://user-images.githubusercontent.com/16587643/34325033-1cc8c048-e854-11e7-966d-20396cc68291.gif)
 
 ## Install
 ```
